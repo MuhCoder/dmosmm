@@ -211,3 +211,50 @@ section {
 .project-title a:hover {
     color: #4d4dff
 }
+
+footer {
+    background-color: #000;
+    display: flex;
+    justify-content:space-between;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1.5em;
+    color: #fff;
+}
+.footer-title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.footer span {
+    color: #6464ff;
+}
+
+@media (max-width: 1023px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+    .main-content h3 {
+        font-size: 1.5em;
+    }
+    .content {
+
+        align-items: center;
+    }
+}
